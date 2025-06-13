@@ -1,0 +1,11 @@
+<resources>
+    <!-- Custom Button Style -->
+    <style name="SereneButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/purple_500</item>
+    </style>
+</resources>

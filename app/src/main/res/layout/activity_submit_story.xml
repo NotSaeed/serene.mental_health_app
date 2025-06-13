@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingTop="58dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="58dp">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/inputLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Location"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#6200EE" />
+
+        <EditText
+            android:id="@+id/inputStory"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Write your story..."
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSubmitStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Story"
+            android:background="@color/button_red"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

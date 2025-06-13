@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/galleryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/galleryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healing Gallery"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2D2D2D"
+        android:gravity="center"
+        android:paddingTop="32dp"
+        android:paddingBottom="2dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/galleryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="12dp" />
+</LinearLayout>

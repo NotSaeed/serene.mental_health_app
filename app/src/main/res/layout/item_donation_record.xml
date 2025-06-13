@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/txtDonatedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Anonymous"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRecipient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To: Yasser - UMPsa"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM10.00 (Fee: RM1.00)"
+        android:textColor="#00796B"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp" />
+</LinearLayout>

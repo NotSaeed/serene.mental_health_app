@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.serene">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:name=".SereneApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/serene"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/serene_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Serene"
+        tools:targetApi="31">
+        <activity
+            android:name=".OnlineBankingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VisaPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentMethodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentGatewaySelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonationHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubmitStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonateToPersonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupportCharityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupportPersonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonationMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelfMoodTrendActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GameResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MoodTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MoodTrendActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelfCareChallengeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChillSpaceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatRoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AudioPlayerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SOSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PopGameActivity"
+            android:exported="true" />
+        <receiver
+            android:name=".NotificationReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

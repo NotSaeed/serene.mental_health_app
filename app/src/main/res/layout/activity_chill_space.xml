@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chillLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF7FA"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/breathText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Breathe In"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333" />
+
+
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breathText"
+        android:layout_centerHorizontal="true"
+        android:text="4"
+        android:textSize="20sp"
+        android:textColor="#666"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <View
+        android:id="@+id/breathCircle"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:background="@color/inhaleColor" />
+
+
+    <TextView
+        android:id="@+id/affirmationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="You are safe. You are healing."
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#5C5C5C" />
+
+</RelativeLayout>

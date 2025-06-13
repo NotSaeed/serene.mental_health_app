@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/sosTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Help"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="58dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/sosMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don’t hesitate to call. If your life is in danger or you're feeling overwhelmed — help is just a call away."
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCallPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Police (999)"
+        app:icon="@drawable/ic_police"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="32dp"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCallHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call DMMC Hospital (019-534 9988)"
+        app:icon="@drawable/ic_hospital"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="32dp"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show My Location"
+        app:icon="@drawable/ic_location"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="32dp"
+        android:padding="14dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location will appear here"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

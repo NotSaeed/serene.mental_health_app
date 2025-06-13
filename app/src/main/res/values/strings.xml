@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Serene</string>
+
+    <!-- Main Menu Buttons -->
+    <string name="mood_tracker">Mood Tracker</string>
+    <string name="mental_health_quiz">Mental Health Quiz</string>
+    <string name="self_care_calendar">Self-Care Calendar</string>
+    <string name="chill_space">Chill Space</string>
+    <string name="sos_help">SOS Help</string>
+    <string name="chat_room">Chat Room</string>
+    <string name="relaxing_audio">Relaxing Audio</string>
+    <string name="self_care_challenge">Self-Care Challenge</string>
+
+    <!-- Common Actions -->
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+
+    <!-- ActionBar Titles -->
+    <string name="title_quiz">Mental Health Quiz</string>
+    <string name="title_result">Your Result</string>
+    <string name="title_calendar">Self-Care Calendar</string>
+    <string name="title_audio">Relaxing Audio</string>
+    <string name="title_chill">Chill Space</string>
+    <string name="title_sos">SOS Help</string>
+    <string name="title_tracker">Mood Tracker</string>
+    <string name="title_chat">Serene Chat</string>
+    <string name="title_challenge">Self-Care Challenge</string>
+
+    <!-- Login and Register -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+</resources>
